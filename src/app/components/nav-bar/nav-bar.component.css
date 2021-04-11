@@ -1,0 +1,28 @@
+nav {
+    /* margin: 48px 0px 24px 0px; */
+    width: 90%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navBottom {
+    display: flex;
+    color: #444;
+}
+
+a:nth-child(1) {
+    margin-right: 10px;
+}
+
+.navBottom .navIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42px;
+    height: 42px;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 8px;
+}
